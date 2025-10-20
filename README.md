@@ -183,18 +183,39 @@
 
 <script>
     function initMap() {
-        // **แทนที่ด้วย Latitude และ Longitude ของที่ตั้งสำนักงานของคุณ**
-        const lawOffice = { lat: 13.7563, lng: 100.5018 }; // ตัวอย่าง: Bangkok Center
+        // ตำแหน่งสำนักงานที่ 1: พิกัดที่คุณระบุ (ราชบุรี/ใกล้เคียง)
+        const office1 = { lat: 13.746503, lng: 99.922899 }; 
+        
+        // ตำแหน่งสำนักงานที่ 2: พิกัดกรุงเทพฯ ที่คุณระบุ
+        const office2 = { lat: 13.819732, lng: 100.582954 }; 
+
         const map = new google.maps.Map(document.getElementById("map"), {
-            zoom: 15,
-            center: lawOffice,
-            mapId: "DEMO_MAP_ID",
+            // zoom จะถูกปรับอัตโนมัติด้วย map.fitBounds
+            mapId: "DEMO_MAP_ID", // ใช้อันนี้ได้เลย ถ้าไม่มี custom map ID
         });
+
+        // สร้าง Marker (หมุด) สำหรับสำนักงานที่ 1
         new google.maps.Marker({
-            position: lawOffice,
+            position: office1,
             map: map,
-            title: "Syndicate Law Offices"
+            title: "Syndicate Law Offices - Main Office (พิกัด 1)"
         });
+
+        // สร้าง Marker (หมุด) สำหรับสำนักงานที่ 2
+        new google.maps.Marker({
+            position: office2,
+            map: map,
+            title: "Syndicate Law Offices - Bangkok Office (พิกัด 2)"
+        });
+        
+        // ทำให้แผนที่ซูมครอบคลุมทั้ง 2 จุดที่ต่างกันมาก (คนละจังหวัด)
+        const bounds = new google.maps.LatLngBounds();
+        bounds.extend(office1);
+        bounds.extend(office2);
+        map.fitBounds(bounds); 
+        
+        // เพิ่ม Zoom ลบ 1 เพื่อให้มีพื้นที่ว่างรอบๆ หมุดมากขึ้น
+        map.setZoom(map.getZoom() - 1);
     }
 </script>
 <script async defer src="https://maps.googleapis.com/maps/api/js?key=YOUR_GOOGLE_MAPS_API_KEY&callback=initMap"></script>
