@@ -34,10 +34,6 @@
         },
       };
     </script>
-    <style>
-      .syndicate-logo {
-        height: 48px; /* กำหนดความสูงตามที่ต้องการ */
-        width: auto;
       }
     </style>
 </head>
