@@ -34,7 +34,7 @@
       };
     </script>
     <style>
-      .syndicate-logo {
+      .[syndicate-logo](https://github.com/user-attachments/assets/18a8056f-9bc3-4333-953b-35dc104a8915) {
         height: 48px; /* กำหนดความสูงตามที่ต้องการ */
         width: auto;
       }
