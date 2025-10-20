@@ -17,7 +17,7 @@
             // โทนสีเข้มขรึมใหม่
             colors: {
               primary: "#00205B", // Navy Blue
-              "background-light": "#f6f6f8", // ยังคงมีไว้เผื่อเปลี่ยนโหมด
+              "background-light": "#f6f6f8", 
               "background-dark": "#101622", // Dark Theme (พื้นหลังหลัก)
               "accent-gold": "#B8860B" // Dark Goldenrod
             },
@@ -47,7 +47,7 @@
 <header class="flex flex-col items-center justify-center whitespace-nowrap border-b border-background-light/10 dark:border-background-dark/10 px-10 py-4 bg-background-dark sticky top-0 z-50 shadow-lg">
 <div class="flex flex-col items-center gap-2 text-stone-200 w-full">
 <a href="/" class="flex flex-col items-center">
-    <img src="/assets/images/syndicate-logo.jpg" alt="Syndicate Law Offices Logo" class="syndicate-logo" />
+    <img src="syndicate-logo.jpg" alt="Syndicate Law Offices Logo" class="syndicate-logo" />
 </a>
 <h2 class="text-xl font-bold tracking-tight text-white">Syndicate Law Offices</h2>
 </div>
@@ -73,14 +73,14 @@
 <a href="#contact" class="mt-8 inline-flex items-center justify-center rounded-lg h-12 px-6 bg-primary text-white text-base font-bold tracking-wide hover:bg-primary/90 transition-colors shadow-lg shadow-primary/50">Request Consultation</a>
 </div>
 </section>
-<div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-24">
+<div class="px-4 sm:px-6 lg:px-8 py-16 sm:py-24">
 <section class="mb-24 text-center" id="about">
 <h2 class="text-3xl font-bold tracking-tight text-white sm:text-4xl">About Us</h2>
 <p class="mt-6 max-w-3xl mx-auto text-lg leading-8 text-stone-400">Syndicate Law Offices is a leading law firm dedicated to providing exceptional legal representation across a wide range of practice areas. Our team of experienced attorneys is committed to achieving the best possible outcomes for our clients through strategic counsel and diligent advocacy.</p>
 </section>
 <section class="mb-24" id="practice-areas">
 <h2 class="text-3xl font-bold tracking-tight text-white sm:text-4xl text-center">Practice Areas</h2>
-<div class="mt-12 grid grid-cols-1 gap-12 sm:grid-cols-2 lg:grid-cols-1">
+<div class="mt-12 grid grid-cols-1 gap-12 sm:grid-cols-2 lg:grid-cols-1 max-w-5xl mx-auto">
 <div class="flex flex-col gap-6 p-6 rounded-xl bg-stone-800/50 shadow-md border-l-4 border-accent-gold">
 <h3 class="text-xl font-semibold leading-7 text-white">Corporate & Business Law</h3>
 <ul class="list-disc list-inside space-y-2 text-stone-300">
@@ -124,7 +124,7 @@
 </div>
 </section>
 <section id="contact">
-<div class="grid grid-cols-1 md:grid-cols-2 gap-16 items-start">
+<div class="grid grid-cols-1 md:grid-cols-2 gap-16 items-start max-w-7xl mx-auto">
 <div>
 <h2 class="text-3xl font-bold tracking-tight text-white sm:text-4xl">Contact & Location</h2>
 <form action="https://formspree.io/f/YOUR_FORMSPREE_CODE" method="POST" class="mt-8 space-y-6">
@@ -153,15 +153,18 @@
 </div>
 
 <div class="w-full aspect-w-1 aspect-h-1 rounded-xl overflow-hidden mt-12 md:mt-0">
-    <iframe 
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14620.245893322744!2d100.27837012674987!3d13.914979146199406!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e2908104d412e1%3A0x101b0451a44e542!2z4Lir4Lin4LiH4Liy4Lir4Liy4Lij4Lit4Liy4LiZ4Liy4Lij4Lix4LiZ4LmM4Lih4Li04Liy4LiZ4Liy4Lij4Lix4LiZ4LmM4Lih4Li04Liy4Lij!5e0!3m2!1sth!2sth!4v1700000000000!5m2!1sth!2sth" 
-        width="100%" 
-        height="100%" 
-        style="border:0;" 
-        allowfullscreen="" 
-        loading="lazy" 
-        referrerpolicy="no-referrer-when-downgrade">
-    </iframe>
+    <div class="w-full h-full min-h-[500px]">
+        <iframe 
+            width="100%" 
+            height="100%" 
+            style="border:0;" 
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade"
+            
+            src="http://googleusercontent.com/maps.google.com/9">
+        </iframe>
+    </div>
     <p class="mt-4 text-center text-sm text-stone-400">เรามีสำนักงาน 2 แห่ง: สำนักงานแรก (13.7465, 99.9229) และ สำนักงานกรุงเทพฯ (13.8197, 100.5830)</p>
 </div>
 </div>
