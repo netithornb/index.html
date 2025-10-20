@@ -35,10 +35,7 @@
       };
     </script>
     <style>
-      .syndicate-logo {
-        height: 48px;
-        width: auto;
-      }
+      /* ลบ CSS ที่ไม่จำเป็นสำหรับโลโก้ออกแล้ว */
     </style>
 </head>
 <body class="font-display bg-background-dark text-stone-200">
@@ -161,10 +158,10 @@
             loading="lazy" 
             referrerpolicy="no-referrer-when-downgrade"
             
-            src="https://maps.google.com/maps?q=13.7831175,100.2529265&z=9&output=embed&hl=th">
+            src="[ใส่ URL แผนที่จริง 2 พิกัดจาก Google Maps ที่นี่]">
         </iframe>
     </div>
-    <p class="mt-4 text-center text-sm text-stone-400">เรามีสำนักงาน 2 แห่ง: สำนักงานแรก (13.7465, 99.9229) และ สำนักงานกรุงเทพฯ (13.8197, 100.5830)</p>
+    <p class="mt-4 text-center text-sm text-stone-400">เรามีสำนักงาน 2 แห่ง: สำนักงานแรก (ต่างจังหวัด) และ สำนักงานกรุงเทพฯ</p>
 </div>
 </div>
 </section>
