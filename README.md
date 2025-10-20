@@ -6,7 +6,8 @@
 
 <link crossorigin="" href="https://fonts.gstatic.com/" rel="preconnect"/>
 <link as="style" href="https://fonts.googleapis.com/css2?display=swap&family=Inter:wght@400;500;700;900" onload="this.rel='stylesheet'" rel="stylesheet"/>
-<title>Syndicate Law Offices - Legal Expertise</title> <link href="data:image/x-icon;base64," rel="icon" type="image/x-icon"/>
+<title>Syndicate Law Offices - Legal Expertise</title>
+<link href="data:image/x-icon;base64," rel="icon" type="image/x-icon"/>
 <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
 <script>
       tailwind.config = {
@@ -125,28 +126,28 @@
 <div class="grid grid-cols-1 md:grid-cols-2 gap-16 items-start">
 <div>
 <h2 class="text-3xl font-bold tracking-tight text-stone-900 dark:text-white sm:text-4xl">Contact & Location</h2>
-<form action="YOUR_FORMSPREE_ENDPOINT" method="POST" class="mt-8 space-y-6">
-<div>
-<label class="block text-sm font-medium text-stone-700 dark:text-stone-300" for="name">Name</label>
-<div class="mt-1">
-<input autocomplete="name" class="form-input block w-full rounded-lg border-stone-300 dark:border-stone-700 bg-background-light/50 dark:bg-background-dark/50 shadow-sm focus:border-primary focus:ring-primary text-stone-900 dark:text-white placeholder-stone-400 dark:placeholder-stone-500" id="name" name="name" placeholder="Your Name" type="text" required/>
-</div>
-</div>
-<div>
-<label class="block text-sm font-medium text-stone-700 dark:text-stone-300" for="email">Email</label>
-<div class="mt-1">
-<input autocomplete="email" class="form-input block w-full rounded-lg border-stone-300 dark:border-stone-700 bg-background-light/50 dark:bg-background-dark/50 shadow-sm focus:border-primary focus:ring-primary text-stone-900 dark:text-white placeholder-stone-400 dark:placeholder-stone-500" id="email" name="_replyto" placeholder="Your Email" type="email" required/>
-</div>
-</div>
-<div>
-<label class="block text-sm font-medium text-stone-700 dark:text-stone-300" for="message">Message</label>
-<div class="mt-1">
-<textarea class="form-textarea block w-full rounded-lg border-stone-300 dark:border-stone-700 bg-background-light/50 dark:bg-background-dark/50 shadow-sm focus:border-primary focus:ring-primary text-stone-900 dark:text-white placeholder-stone-400 dark:placeholder-stone-500" id="message" name="message" placeholder="Your Message" rows="4" required></textarea>
-</div>
-</div>
-<div>
-<button class="inline-flex items-center justify-center rounded-lg h-12 px-6 bg-primary text-white text-base font-bold tracking-wide hover:bg-primary/90 transition-colors shadow-lg w-full" type="submit">Send Message</button>
-</div>
+<form action="https://formspree.io/f/xeorddab" method="POST" class="mt-8 space-y-6">
+    <div>
+        <label class="block text-sm font-medium text-stone-700 dark:text-stone-300" for="name">Name</label>
+        <div class="mt-1">
+            <input autocomplete="name" class="form-input block w-full rounded-lg border-stone-300 dark:border-stone-700 bg-background-light/50 dark:bg-background-dark/50 shadow-sm focus:border-primary focus:ring-primary text-stone-900 dark:text-white placeholder-stone-400 dark:placeholder-stone-500" id="name" name="name" placeholder="Your Name" type="text" required/>
+        </div>
+    </div>
+    <div>
+        <label class="block text-sm font-medium text-stone-700 dark:text-stone-300" for="email">Email</label>
+        <div class="mt-1">
+            <input autocomplete="email" class="form-input block w-full rounded-lg border-stone-300 dark:border-stone-700 bg-background-light/50 dark:bg-background-dark/50 shadow-sm focus:border-primary focus:ring-primary text-stone-900 dark:text-white placeholder-stone-400 dark:placeholder-stone-500" id="email" name="_replyto" placeholder="Your Email" type="email" required/>
+        </div>
+    </div>
+    <div>
+        <label class="block text-sm font-medium text-stone-700 dark:text-stone-300" for="message">Message</label>
+        <div class="mt-1">
+            <textarea class="form-textarea block w-full rounded-lg border-stone-300 dark:border-stone-700 bg-background-light/50 dark:bg-background-dark/50 shadow-sm focus:border-primary focus:ring-primary text-stone-900 dark:text-white placeholder-stone-400 dark:placeholder-stone-500" id="message" name="message" placeholder="Your Message" rows="4" required></textarea>
+        </div>
+    </div>
+    <div>
+        <button class="inline-flex items-center justify-center rounded-lg h-12 px-6 bg-primary text-white text-base font-bold tracking-wide hover:bg-primary/90 transition-colors shadow-lg w-full" type="submit">Send Message</button>
+    </div>
 </form>
 </div>
 
@@ -163,9 +164,9 @@
 <a class="text-stone-500 dark:text-stone-400 hover:text-primary dark:hover:text-accent-gold transition-colors" href="https://www.facebook.com/profile.php?id=61576550558611&mibextid=wwXIfr&mibextid=wwXIfr" target="_blank">
     <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.891h-2.33V21.878C18.343 21.128 22 16.991 22 12z"></path></svg>
 </a>
-<a class="text-stone-500 dark:text-stone-400 hover:text-primary dark:hover:text-accent-gold transition-colors" href="#" target="_blank">
-    <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" xmlns="http://www.w3.org/2000/svg">
-        <path stroke-linecap="round" stroke-linejoin="round" d="M21 13.5h-8.25m-6.75 0H3m9 0v-3.75m3.75 0V7.5M12 10.125l3.75 3.75M12 10.125l-3.75 3.75M12 10.125V18m-9-7.5h8.25m6.75 0H21m-6.75-3.75h-6.75M12 15.75h-.008v.008H12v-.008z"/>
+<a class="text-stone-500 dark:text-stone-400 hover:text-primary dark:hover:text-accent-gold transition-colors" href="https://www.fastwork.co/YOUR_FASTWORK_PROFILE_LINK" target="_blank">
+    <svg class="h-6 w-6" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+        <path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12c2.445 0 4.73-.72 6.633-1.957l-1.07-3.882c-.22-.796.333-1.614 1.173-1.614h3.764c.22 0 .4-.18.4-.4V8.4c0-4.639-3.761-8.4-8.4-8.4zm0 6c-3.314 0-6 2.686-6 6s2.686 6 6 6 6-2.686 6-6-2.686-6-6-6z"/>
     </svg>
 </a>
 </div>
