@@ -43,7 +43,6 @@
 <header class="flex flex-col items-center justify-center whitespace-nowrap border-b border-background-light/10 dark:border-background-dark/10 px-10 py-4 bg-background-dark sticky top-0 z-50 shadow-lg">
 <div class="flex flex-col items-center gap-2 text-stone-200 w-full">
 <a href="/" class="flex flex-col items-center">
-    <img src="syndicate-logo.jpg" alt="Syndicate Law Offices Logo" class="syndicate-logo" />
 </a>
 <h2 class="text-xl font-bold tracking-tight text-white">Syndicate Law Offices</h2>
 </div>
