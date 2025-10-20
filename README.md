@@ -35,7 +35,10 @@
       };
     </script>
     <style>
-      /* ลบ CSS สำหรับ .syndicate-logo ออกแล้ว */
+      .syndicate-logo {
+        height: 48px;
+        width: auto;
+      }
     </style>
 </head>
 <body class="font-display bg-background-dark text-stone-200">
@@ -76,7 +79,7 @@
 </section>
 <section class="mb-24" id="practice-areas">
 <h2 class="text-3xl font-bold tracking-tight text-white sm:text-4xl text-center">Practice Areas</h2>
-<div class="mt-12 grid grid-cols-1 gap-12 sm:grid-cols-2 lg:grid-cols-1 max-w-5xl mx-auto">
+<div class="mt-12 grid grid-cols-1 gap-12 sm:grid-cols-2 lg:grid-cols-1">
 <div class="flex flex-col gap-6 p-6 rounded-xl bg-stone-800/50 shadow-md border-l-4 border-accent-gold">
 <h3 class="text-xl font-semibold leading-7 text-white">Corporate & Business Law</h3>
 <ul class="list-disc list-inside space-y-2 text-stone-300">
@@ -120,7 +123,7 @@
 </div>
 </section>
 <section id="contact">
-<div class="grid grid-cols-1 md:grid-cols-2 gap-16 items-start max-w-7xl mx-auto">
+<div class="grid grid-cols-1 md:grid-cols-2 gap-16 items-start">
 <div>
 <h2 class="text-3xl font-bold tracking-tight text-white sm:text-4xl">Contact & Location</h2>
 <form action="https://formspree.io/f/YOUR_FORMSPREE_CODE" method="POST" class="mt-8 space-y-6">
@@ -158,7 +161,7 @@
             loading="lazy" 
             referrerpolicy="no-referrer-when-downgrade"
             
-            src="http://googleusercontent.com/maps.google.com/9">
+            src="https://maps.google.com/maps?q=13.7831175,100.2529265&z=9&output=embed&hl=th">
         </iframe>
     </div>
     <p class="mt-4 text-center text-sm text-stone-400">เรามีสำนักงาน 2 แห่ง: สำนักงานแรก (13.7465, 99.9229) และ สำนักงานกรุงเทพฯ (13.8197, 100.5830)</p>
