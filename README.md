@@ -183,15 +183,14 @@
 
 <script>
     function initMap() {
-        // ตำแหน่งสำนักงานที่ 1: พิกัดที่คุณระบุ (ราชบุรี/ใกล้เคียง)
+        // ตำแหน่งสำนักงานที่ 1: พิกัดที่คุณระบุ (13.746503, 99.922899)
         const office1 = { lat: 13.746503, lng: 99.922899 }; 
         
-        // ตำแหน่งสำนักงานที่ 2: พิกัดกรุงเทพฯ ที่คุณระบุ
+        // ตำแหน่งสำนักงานที่ 2: พิกัดกรุงเทพฯ ที่คุณระบุ (13.819732, 100.582954)
         const office2 = { lat: 13.819732, lng: 100.582954 }; 
 
         const map = new google.maps.Map(document.getElementById("map"), {
-            // zoom จะถูกปรับอัตโนมัติด้วย map.fitBounds
-            mapId: "DEMO_MAP_ID", // ใช้อันนี้ได้เลย ถ้าไม่มี custom map ID
+            mapId: "DEMO_MAP_ID",
         });
 
         // สร้าง Marker (หมุด) สำหรับสำนักงานที่ 1
@@ -208,13 +207,13 @@
             title: "Syndicate Law Offices - Bangkok Office (พิกัด 2)"
         });
         
-        // ทำให้แผนที่ซูมครอบคลุมทั้ง 2 จุดที่ต่างกันมาก (คนละจังหวัด)
+        // ทำให้แผนที่ซูมครอบคลุมทั้ง 2 จุด
         const bounds = new google.maps.LatLngBounds();
         bounds.extend(office1);
         bounds.extend(office2);
         map.fitBounds(bounds); 
         
-        // เพิ่ม Zoom ลบ 1 เพื่อให้มีพื้นที่ว่างรอบๆ หมุดมากขึ้น
+        // ปรับ Zoom ลด 1 เพื่อให้มีพื้นที่ว่างรอบๆ หมุดมากขึ้น
         map.setZoom(map.getZoom() - 1);
     }
 </script>
