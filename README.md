@@ -14,7 +14,7 @@
         darkMode: "class",
         theme: {
           extend: {
-            // โทนสีเข้มขรึมใหม่
+            // โทนสีเข้มขรึม
             colors: {
               primary: "#00205B", // Navy Blue
               "background-light": "#f6f6f8", 
@@ -34,7 +34,8 @@
         },
       };
     </script>
-      }
+    <style>
+      /* ลบ CSS สำหรับ .syndicate-logo ออกแล้ว */
     </style>
 </head>
 <body class="font-display bg-background-dark text-stone-200">
@@ -43,7 +44,7 @@
 <header class="flex flex-col items-center justify-center whitespace-nowrap border-b border-background-light/10 dark:border-background-dark/10 px-10 py-4 bg-background-dark sticky top-0 z-50 shadow-lg">
 <div class="flex flex-col items-center gap-2 text-stone-200 w-full">
 <a href="/" class="flex flex-col items-center">
-</a>
+    </a>
 <h2 class="text-xl font-bold tracking-tight text-white">Syndicate Law Offices</h2>
 </div>
 <nav class="hidden md:flex items-center gap-8 mt-4">
