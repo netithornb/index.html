@@ -85,7 +85,7 @@
 <ul class="list-disc list-inside space-y-2 text-stone-600 dark:text-stone-400">
     <li>Company Formation and Registration</li>
     <li>Mergers, Acquisitions (M&A) and Joint Ventures</li>
-    <li>Foreign Investment and Alien Business Law</li>
+    <li>Foreign Investment and Business Law</li>
     <li>Legal Due Diligence (DD)</li>
 </ul>
 </div>
@@ -99,10 +99,10 @@
 <div class="flex flex-col gap-6 p-6 rounded-xl bg-background-light/50 dark:bg-background-dark/50 shadow-sm border-l-4 border-accent-gold">
 <h3 class="text-xl font-semibold leading-7 text-stone-900 dark:text-white">Litigation & Dispute Resolution</h3>
 <ul class="list-disc list-inside space-y-2 text-stone-600 dark:text-stone-400">
-    <li>**Civil Cases:** Damages Claims, Breach of Contract, Enforcement</li>
-    <li>**Criminal Cases:** Consultation and Defense Representation</li>
-    <li>**Labor Cases:** Termination and Employee/Employer Disputes</li>
-    <li>**Family & Inheritance:** Divorce, Custody, Estate Administration</li>
+    <li>Civil Cases: Damages Claims, Breach of Contract, Enforcement</li>
+    <li>Criminal Cases: Consultation and Defense Representation</li>
+    <li>Labor Cases: Termination and Employee/Employer Disputes</li>
+    <li>Family & Inheritance: Divorce, Custody, Estate Administration</li>
 </ul>
 </div>
 <div class="flex flex-col gap-6 p-6 rounded-xl bg-background-light/50 dark:bg-background-dark/50 shadow-sm border-l-4 border-accent-gold">
@@ -164,7 +164,7 @@
 <a class="text-stone-500 dark:text-stone-400 hover:text-primary dark:hover:text-accent-gold transition-colors" href="https://www.facebook.com/profile.php?id=61576550558611&mibextid=wwXIfr&mibextid=wwXIfr" target="_blank">
     <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.891h-2.33V21.878C18.343 21.128 22 16.991 22 12z"></path></svg>
 </a>
-<a class="text-stone-500 dark:text-stone-400 hover:text-primary dark:hover:text-accent-gold transition-colors" href="https://www.fastwork.co/YOUR_FASTWORK_PROFILE_LINK" target="_blank">
+<a class="text-stone-500 dark:text-stone-400 hover:text-primary dark:hover:text-accent-gold transition-colors" href="https://fastwork.co/user/netithornb?source=web_marketplace_profile-menu_profile" target="_blank">
     <svg class="h-6 w-6" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
         <path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12c2.445 0 4.73-.72 6.633-1.957l-1.07-3.882c-.22-.796.333-1.614 1.173-1.614h3.764c.22 0 .4-.18.4-.4V8.4c0-4.639-3.761-8.4-8.4-8.4zm0 6c-3.314 0-6 2.686-6 6s2.686 6 6 6 6-2.686 6-6-2.686-6-6-6z"/>
     </svg>
